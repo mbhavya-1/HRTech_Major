@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Organizational Trust Index (OTI) 🧭(UI Interface on Github)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Detecting Hidden Trust Erosion in Distributed Teams**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Overview
 
-### `npm start`
+Organizational Trust Index (OTI) is an AI-powered, privacy-conscious HR analytics dashboard designed to **detect early signs of trust erosion** in remote and hybrid teams. It provides real-time behavioral and emotional insights to help HR leaders and managers maintain healthy, collaborative, and resilient work environments.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Problem Statement
 
-### `npm test`
+In distributed work settings, trust deteriorates silently. Teams become siloed, communication falters, and engagement drops — but traditional HR tools fail to detect the early behavioral signals of this erosion. Without timely intervention, this leads to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Increased attrition and disengagement
+- Fragmented collaboration and performance bottlenecks
+- Delayed crisis management by HR and leadership
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💡 Solution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+OTI monitors behavioral, emotional, and network-level signals (ethically and anonymously) to provide **real-time trust analytics**, allowing leadership to intervene **proactively** rather than reactively.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Core Modules:
 
-### `npm run eject`
+- **Trust Pulse Engine** – Analyzes metadata like meeting cadence and response behavior (not message content).
+- **Sentiment Drift Monitor** – Uses NLP on opt-in text sources to detect tone shifts that indicate misalignment or disengagement.
+- **Engagement Friction Mapper** – Identifies silos and collaboration drop-offs using network insights.
+- **Trust Risk Alerts** – Prioritizes risks and recommends actionable interventions for HR.
+- **Privacy & Consent Layer** – Includes opt-in analytics and customizable data retention settings.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧪 Features & Screens
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📊 **Dashboard View**
+- Organization-wide trust score with historical trend analysis
+- Departmental comparison & risk breakdown
+- Time-based filtering & data exploration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 👥 **Team View**
+- Employee-level trust metrics
+- Filter by department, engagement, collaboration score
+- Directional trends and indicators
 
-## Learn More
+### 🧠 **Collaboration Graph**
+- Interactive network of employee connections
+- Node size = trust score, edge thickness = collaboration intensity
+- Hover for insights, filter by team/department
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🚨 **Trust Risk Alerts**
+- List of detected risks with context
+- Suggested actions for leadership/HR
+- Alert filtering & status tracking
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🔐 **Privacy & Consent Settings**
+- Admin dashboard for configuring opt-in preferences
+- Data transparency & retention policies
+- Explanation of analysis boundaries
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧭 User Experience Flow
 
-### Analyzing the Bundle Size
+1. **Login** – SSO or direct login to dashboard
+2. **Explore Dashboard** – Organization-wide trust metrics & department comparisons
+3. **Team Drill-down** – Filter & analyze trust signals at individual/team level
+4. **Visual Network Graph** – Identify silos and strong/weak collaboration clusters
+5. **Review Alerts** – Get proactive notifications about emerging trust issues
+6. **Configure Privacy** – HR can manage opt-ins and data collection policies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🛠️ Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- **React + Vite** for frontend UI
+- **Tailwind CSS** for styling
+- **Recharts** & **D3.js** for visualization
+- **React Router** for navigation
+- **Mock data** for simulation (in `data/` folder)
+- **Vercel** deployment-ready
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🧪 Getting Started (Local)
 
-### Deployment
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/mbhavya-1/HRTech_Major.git
+   cd HRTech_Major
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployed Website Link: https://hr-tech-major-iqtu.vercel.app/dashboard
+Created By- Bhavya Mehta
