@@ -81,7 +81,7 @@ OTI monitors behavioral, emotional, and network-level signals (ethically and ano
 - **Recharts** & **D3.js** for visualization
 - **React Router** for navigation
 - **Mock data** for simulation (in `data/` folder)
-- **Vercel** deployment-ready
+- **Vercel** deployment
 
 ---
 
